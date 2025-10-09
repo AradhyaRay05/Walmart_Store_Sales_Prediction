@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Load the trained model
-with open(r'D:\Education\Coding\Machine Learning\Machine Learning Projects\Walmart Store Sales Prediction\model.pkl', 'rb') as f:
+with open('model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 st.title('Walmart Weekly Sales Prediction')
