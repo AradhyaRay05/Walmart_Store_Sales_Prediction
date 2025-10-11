@@ -46,3 +46,21 @@ This project presents an end-to-end machine learning solution for predicting Wal
 - The application can be deployed on platforms like **Streamlit Cloud, Heroku, or AWS** for broader access.
 
 ---
+
+## 🛠 Tech Stack
+
+**Programming Language:**
+- Python
+
+**Libraries for Data Analysis & Visualization:**
+- Numpy
+- Pandas
+- Matplotlib
+- Seaborn
+
+**Machine Learning:**
+- Scikit-learn
+
+**Deployment & Utilities:**
+- Streamlit
+- Pickle
