@@ -68,6 +68,22 @@ This project presents an end-to-end machine learning solution for predicting Wal
 ---
 
 
+## ✨ Features
+- Predict the **weekly sales of a Walmart store** using machine learning.
+- Simple and interactive **Streamlit UI** with sliders, a checkbox, and a dropdown menu.
+- Powered by a **Linear Regression model** with high predictive accuracy.
+- Provides sales forecasts based on store-specific and economic factors.
+
+---
+
+## 🚀 Future Enhancements
+- Incorporate more features like local events, marketing data, and specific holiday types.
+- Experiment with more advanced regression models like **XGBoost, LightGBM, or CatBoost**.
+- Develop a **REST API** using Flask or FastAPI for easier integration with other applications.
+- Add **model interpretability plots (e.g., using SHAP)** to the Streamlit app to explain predictions.
+- Set up **CI/CD pipelines** for automated testing and deployment on a cloud platform like AWS or GCP.
+
+---
 
 ---
 
