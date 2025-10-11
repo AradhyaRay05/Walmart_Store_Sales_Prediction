@@ -16,3 +16,33 @@ This project presents an end-to-end machine learning solution for predicting Wal
 - **Deployment:** The trained model is deployed as an interactive web application using **Streamlit**, allowing users to get sales predictions in real-time.
 
 ---
+
+## 🔄 Project Workflow
+
+### 1. Data Preprocessing
+- Checked for missing values; the dataset was complete with no nulls.
+- Converted the `Date` column from string to datetime objects.
+- Applied **one-hot encoding** to the categorical `Store` feature to prepare it for the model.
+- Transformed the target variable `Weekly_Sales` using `np.log1p` to normalize its distribution.
+- Selected key features for the model: `Holiday_Flag`, `Temperature`, `Fuel_Price`, `CPI`, `Unemployment`, and the one-hot encoded store columns.
+
+### 2. Model Building
+- Utilized a **Linear Regression** model from Scikit-learn.
+- The data was split into an 80% training set and a 20% testing set.
+- The final trained model was saved as `model.pkl` using `pickle` for easy deployment.
+
+### 3. Evaluation Metrics
+- **Linear Regression Performance:**
+  - R² Score: **0.96**
+  - Mean Squared Error (MSE): **0.014**
+  - Root Mean Squared Error (RMSE): **0.118**
+- The model demonstrates a very high accuracy in predicting the log-transformed weekly sales.
+
+### 4. Deployment
+- The trained Linear Regression model was serialized using `pickle`.
+- A **Streamlit web app** (`app.py`) was developed for user interaction.
+- The app allows users to input details like the store number, holiday status, temperature, fuel price, CPI, and unemployment rate to receive an instant sales prediction.
+- The output from the model is inverse-transformed using `np.expm1` to display the predicted sales in its original dollar value.
+- The application can be deployed on platforms like **Streamlit Cloud, Heroku, or AWS** for broader access.
+
+---
