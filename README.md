@@ -1,1 +1,1 @@
-# Walmart_Store_Sales_Prediction
+# 🛒 Walmart Store Sales Prediction  - Predicting Walmart's weekly sales
