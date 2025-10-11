@@ -85,6 +85,12 @@ This project presents an end-to-end machine learning solution for predicting Wal
 
 ---
 
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
 ## 📌 How to Run Locally
 
 ```
