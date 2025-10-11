@@ -85,6 +85,14 @@ This project presents an end-to-end machine learning solution for predicting Wal
 
 ---
 
+## 📌 How to Run Locally
+
+```
+git clone https://github.com/AradhyaRay05/Walmart_Store_Sales_Prediction.git
+cd Walmart_Store_Sales_Prediction
+pip install -r requirements.txt
+streamlit run app.py
+```
 ---
 
 ## 📬 Contact
